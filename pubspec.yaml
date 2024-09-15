@@ -1,0 +1,61 @@
+name: pawssguardiann
+description: "A welfare stray animal project."
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: '>=3.3.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  carousel_slider: ^4.2.1
+  url_launcher: ^6.3.0
+  shared_preferences: ^2.2.3
+  image_picker: ^1.1.2
+  google_fonts: ^6.2.1
+  firebase_core: ^2.32.0
+  firebase_auth: ^4.20.0
+  cloud_firestore: ^4.17.5
+  firebase_storage: ^11.7.7
+  cupertino_icons: ^1.0.6
+  intl: ^0.19.0
+  photo_view: ^0.15.0
+  flutter_launcher_icons: ^0.13.1
+  fl_chart: ^0.68.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - lib/images/logo.jpg
+    - lib/images/logo-1.png
+    - lib/images/img1.jpg
+    - lib/images/img2.png
+    - lib/images/img3.png
+    - lib/images/map.png
+    - lib/images/paws-logo.png
+    - lib/images/safm-logo.png
+    - lib/images/secondchance-logo.png
+    - lib/images/spca-logo.png
+    - lib/images/wwf-logo.png
+    - lib/images/feed-cat.jpeg
+    - lib/images/dog-s.jpeg
+    - lib/images/vet-clinic.jpeg
+    - lib/images/rescue-team.jpg
+    - lib/images/profile-g.jpeg
+    - lib/images/rabies-cat.jpeg
+    - lib/images/
+    - assets/logo/logo.jpg
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: fonts/Poppins-Regular.ttf
+        - asset: fonts/Poppins-Bold.ttf
+          weight: 700
+        - asset: fonts/Poppins-Italic.ttf
+          style: italic
